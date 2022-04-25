@@ -7,6 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-30.times do |vote|
-    Voter.create(name:"Voter #{vote+1}",candidate_id:2)
+10.times do |vote|
+    Voter.create(name:"Voter #{vote+1}",candidate_id:15)
 end

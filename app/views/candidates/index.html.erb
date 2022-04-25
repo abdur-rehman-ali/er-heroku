@@ -1,0 +1,8 @@
+<%= link_to 'Home',root_path %>
+
+<% @candidates.each do |candidate| %>
+<h1><%= candidate.name %></h1> 
+<small> <%= candidate.symbol %> </small> <br>
+<%= link_to 'See voters', candidate %>
+<hr><hr>
+<% end %>
